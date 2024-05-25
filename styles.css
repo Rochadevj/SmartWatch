@@ -48,7 +48,7 @@ font-family: Inter;
 font-size: 17px;
 font-style: normal;
 font-weight: 700;
-line-height: 30px; /* 176.471% */
+line-height: 30px; 
 }
 
 .hour {
@@ -58,7 +58,7 @@ font-family: Inter;
 font-size: 17px;
 font-style: normal;
 font-weight: 500;
-line-height: 19.5px; /* 114.706% */
+line-height: 19.5px;
 }
 
 .swiper {
@@ -115,15 +115,15 @@ line-height: 19.5px; /* 114.706% */
 
 .footer {
     text-align: center;
-    padding: 25px; /* Aumentei o padding para destacar mais o rodapé */
-    font-size: 1em; /* Aumentei o tamanho da fonte */
-    color: #000000; /* Alterei a cor do texto para preto */
-    font-family: 'Inter', sans-serif; /* Usando a fonte INTER */
+    padding: 25px; 
+    font-size: 1em; 
+    color: #000000; 
+    font-family: 'Inter', sans-serif; 
     
-    position: fixed; /* Mudei de absolute para fixed para manter o rodapé no lugar */
-    bottom: 30px; /* Ajustei a posição para 30px do fundo */
+    position: fixed; 
+    bottom: 30px; 
     width: 100%;
 
-    /* Adicionando destaque sutil */
-    background-color: rgba(0, 0, 0, 0.04); /* Cor de fundo mais escura com 5% de opacidade */
+ 
+    background-color: rgba(0, 0, 0, 0.04);
 }

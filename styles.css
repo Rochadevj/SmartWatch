@@ -157,6 +157,7 @@ line-height: 19.5px;
 @media (max-width: 425px) {
     .container {
         left: 48.9%;
+          top: 51.3%;
     }
     
     .footer {
@@ -164,7 +165,7 @@ line-height: 19.5px;
     }
 
     .return {
-        top: 65%; 
+        top: 66%; 
     }
 
 }

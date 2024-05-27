@@ -31,6 +31,26 @@ img {
     left: 49.50%;
 }
 
+.return {
+    position: absolute;
+    top: 66.5%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    
+}
+
+.return img {
+    width: 39px;
+    height: auto;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.return img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
 header {
     display: flex;
     width: 205px;
@@ -58,7 +78,7 @@ font-family: Inter;
 font-size: 17px;
 font-style: normal;
 font-weight: 500;
-line-height: 19.5px;
+line-height: 19.5px; 
 }
 
 .swiper {
@@ -116,7 +136,7 @@ line-height: 19.5px;
 .footer {
     text-align: center;
     padding: 25px; 
-    font-size: 1em; 
+    font-size: 1.1em; 
     color: #000000; 
     font-family: 'Inter', sans-serif; 
     
@@ -124,6 +144,27 @@ line-height: 19.5px;
     bottom: 30px; 
     width: 100%;
 
- 
-    background-color: rgba(0, 0, 0, 0.04);
+    background-color: rgba(0, 0, 0, 0.04); 
+}
+
+@media (max-width: 769px) {
+    .return {
+        top: 62%; 
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .container {
+        left: 48.9%;
+    }
+    
+    .footer {
+        bottom: 25px; 
+    }
+
+    .return {
+        top: 64.7%; 
+    }
+
 }

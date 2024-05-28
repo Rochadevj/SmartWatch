@@ -33,7 +33,7 @@ img {
 
 .return {
     position: absolute;
-    top: 66.5%; 
+    top: 115%; 
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
@@ -41,7 +41,7 @@ img {
 }
 
 .return img {
-    width: 39px;
+    width: 40px;
     height: auto;
     transition: transform 0.3s, opacity 0.3s;
 }
@@ -147,25 +147,3 @@ line-height: 19.5px;
     background-color: rgba(0, 0, 0, 0.04); 
 }
 
-@media (max-width: 769px) {
-    .return {
-        top: 62%; 
-    }
-    
-}
-
-@media (max-width: 425px) {
-    .container {
-        left: 48.9%;
-          top: 53%;
-    }
-    
-    .footer {
-        bottom: 25px; 
-    }
-
-    .return {
-        top: 69%; 
-    }
-
-}

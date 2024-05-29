@@ -147,3 +147,17 @@ line-height: 19.5px;
     background-color: rgba(0, 0, 0, 0.04); 
 }
 
+@media (max-width: 425px) {
+    .container {
+        left: 48%;
+    }
+    
+    .return {
+        top: 124%;
+    }
+   
+    header{
+        padding: 16.5px 15.5px 10.5px 15.5px;
+    }
+}
+

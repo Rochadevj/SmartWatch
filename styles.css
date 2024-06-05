@@ -139,12 +139,15 @@ line-height: 19.5px;
     font-size: 1.1em; 
     color: #000000; 
     font-family: 'Inter', sans-serif; 
-    
     position: fixed; 
     bottom: 30px; 
     width: 100%;
-
     background-color: rgba(0, 0, 0, 0.04); 
+}
+
+.footer a {
+    color: #000000; 
+    font-weight: bold; 
 }
 
 @media (max-width: 425px) {
